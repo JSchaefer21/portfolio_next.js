@@ -44,8 +44,8 @@ function Projects(){
         <a className={`${projects.project} ${projects.project_3}`} href="https://weather-time.surge.sh/" style={{display: "table-cell"}} target="_blank" rel="noreferrer">
             <div className={projects.container}>
                 <p className={projects.description}><text className={projects.bold}>Weather App</text>, web application that gives you the weather at that specific time from anywhere in the world.</p>
-                <p className={projects.description}>Weather can be found by searching by name, using the location device, or by clicking anywhere on the map.</p>
-                <p className={projects.description}>There is a button to show and hide the map, the coordinates of the point and its altitude are also displayed on the map.</p>
+                <p className={projects.description}>Weather can be found searching by name, using the location device, or by clicking anywhere on the map.</p>
+                <p className={projects.description}>There is a button to show and hide the map, the coordinates of the point and altitude are also displayed on the map.</p>
                 <p className={projects.description}></p>
                 <p className={projects.description}><text className={projects.bold}>Checkout GitHub</text> repositorie for more information.</p>
             </div>       
