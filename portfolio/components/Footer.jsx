@@ -21,11 +21,11 @@ function Footer(){
         </div>
 
         <div className={footer.icons} >
-            <a href="https://github.com/JSchaefer21" style={{display: "table-cell"}} target="_blank" rel="noreferrer">
-                <img className={footer.icons_logo}  src='../../github_logo.png' alt=''/>
+            <a href="https://github.com/JSchaefer21" className={footer.icons_logo} style={{display: "table-cell"}} target="_blank" rel="noreferrer">
+                <div className={footer.github}/>
             </a>
-            <a href="https://www.linkedin.com/in/jordi-schaefer" style={{display: "table-cell"}} target="_blank" rel="noreferrer">
-                <img className={footer.icons_logo}  src='../../linkedin_logo.png' alt=''/>
+            <a href="https://www.linkedin.com/in/jordi-schaefer" className={footer.icons_logo} style={{display: "table-cell"}} target="_blank" rel="noreferrer">
+                <div className={footer.linkedin}/>
             </a>
         </div>
 

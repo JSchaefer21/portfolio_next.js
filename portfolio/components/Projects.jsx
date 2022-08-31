@@ -13,7 +13,7 @@ function Projects(){
             <div className={projects.container} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)} >
                 {!hover && <div> 
                     <p className={projects.description}><text className={projects.bold}>Stravita</text>, clone from strava.</p>
-                    <p className={projects.description}>It's a social media web aplication (mobile first) designed for register and share sport activities.</p>
+                    <p className={projects.description}>It&apos;s a social media web aplication (mobile first) designed for register and share sport activities.</p>
                     <p className={projects.description}>Users can track their activities with the main focus on the elevation gain, and distance.</p>
                     <p className={projects.description}>The application shows some data in real time like altitude, distance, time, weather and map including the track registered.</p>
                 </div> }
