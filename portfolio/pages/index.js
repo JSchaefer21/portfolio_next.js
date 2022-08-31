@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import PageLayout from '../components/PageLayout'
-import Projects from '../Components/Projects.jsx'
-import Footer from '../Components/Footer.jsx'
+import Projects from '../components/Projects.jsx'
+import Footer from '../components/Footer.jsx'
 
 export default function Index() {
   return (
@@ -15,7 +14,7 @@ export default function Index() {
           <link rel="icon" href="/person.ico" />
         </Head>
 
-        <Link href='/about'>ir a about</Link>  
+        {/* <Link href='/about'>ir a about</Link>  */} 
 
         <Projects/>
         <Footer/>
