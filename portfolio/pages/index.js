@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import PageLayout from '../components/PageLayout'
+import Projects from '../Components/Projects.jsx'
+import Footer from '../Components/Footer.jsx'
 
-export default function Home() {
+export default function Index() {
   return (
     <PageLayout>
       <div className={styles.container}>
@@ -14,8 +15,11 @@ export default function Home() {
           <link rel="icon" href="/person.ico" />
         </Head>
 
-        <h1>My portfolio</h1>
         <Link href='/about'>ir a about</Link>  
+
+        <Projects/>
+        <Footer/>
+
       </div>
     </PageLayout>
   )

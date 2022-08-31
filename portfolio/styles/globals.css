@@ -1,26 +1,39 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+  --white: #ffffff;
+  --almost-white: #f2f2f7;
+  --light-color: #2c3242;
+  --medium-color: #252935;
+  --dark-color: #1b242f;
+  --main-color: #267f97;   
 }
+ 
 
 * {
-  box-sizing: border-box;
+  font-family: Roboto;    
+  font-size: 18px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+html, body, #root {
+  margin: 0;
+  height: 100%;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button, h2 {
+  margin: 0rem;
+  font-size: inherit;
+}
+
+
+/* .app {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} */
