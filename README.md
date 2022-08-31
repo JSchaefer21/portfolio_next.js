@@ -1,6 +1,7 @@
 <h1 align="center">👨‍💻 My portfolio </h1>
 
 This is my personal portfolio that includes all my projects, resume and contact information.
+Made with Next.js and CSS modules
 
-[jschaefer21.com]: https://www.jschaefer21.com
-### 💻 visit [jschaefer21.com]
+[jschaefer.vercel.app]: https://jschaefer.vercel.app/
+### 💻 visit [jschaefer.vercel.app]
