@@ -1,0 +1,100 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: var(--almost-white);
+    gap: 6rem;
+    width: 100%; }
+  
+.title {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--dark-color);
+    border-bottom: 3px solid var(--light-color);
+    padding-bottom: 0.4rem;
+    margin-bottom: -2rem; }
+  
+.container {
+    position: absolute;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, 30%);
+    background-color: #1b242fdf;
+    border-radius: 15px;
+    padding: 3px 0 3px 0; }
+  
+.description {
+    padding: 0px 20px 0 20px;
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+    text-decoration: none;
+    border-bottom: none; }
+  
+.description_test {
+    padding: 0px 0px 0px 20px;
+    color: #cacaca;
+    margin: 0;
+    font-size: 10px;
+    line-height: 2px;
+    text-align: justify;
+    text-decoration: none;
+    border-bottom: none; }
+  
+.bold {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f6f6f6; }
+  
+.bold2 {
+    padding: 0;
+    font-size: 11px;
+    font-weight: 500; }
+  
+.project {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 505px;
+    border-radius: 15px;
+    border: 3px solid var(--light-color); }
+  
+.project_1 {
+    background-image: url("../public/stravita_resume.jpg");
+    background-size: cover;
+    background-position: center; }
+  
+.project_2 {
+    background-image: url("../public/boiled_eggs.jpg");
+    background-size: cover;
+    background-position: center; }
+  
+.project_3 {
+    background-image: url("../public/weather.jpg");
+    background-size: cover;
+    background-position: center; }
+  
+@media only screen and (min-width: 445px) {
+    .container {
+      width: 65%;
+      transform: translate(-50%, 35%); } }
+  
+@media only screen and (min-width: 650px) {
+    .container {
+      width: 48%;
+      transform: translate(-50%, 25%); } }
+  
+@media only screen and (min-width: 900px) {
+    .project_1, .project_2, .project_3 {
+      width: 800px;
+      height: 505px; }
+    .container {
+      left: 250px;
+      top: 90px;
+      width: 300px;
+      transform: translate(0, 0); } }
